@@ -1,0 +1,21 @@
+﻿  main.cpp
+c:\users\ivan\documents\programiranje\c++\poop\projekat\projekat\main.cpp(200): warning C4018: '<': signed/unsigned mismatch
+c:\users\ivan\documents\programiranje\c++\poop\projekat\projekat\main.cpp(215): warning C4018: '<': signed/unsigned mismatch
+c:\users\ivan\documents\programiranje\c++\poop\projekat\projekat\main.cpp(348): warning C4018: '<': signed/unsigned mismatch
+c:\users\ivan\documents\programiranje\c++\poop\projekat\projekat\main.cpp(454): warning C4018: '<': signed/unsigned mismatch
+c:\users\ivan\documents\programiranje\c++\poop\projekat\projekat\main.cpp(530): warning C4018: '<': signed/unsigned mismatch
+c:\users\ivan\documents\programiranje\c++\poop\projekat\projekat\main.cpp(610): warning C4018: '<': signed/unsigned mismatch
+c:\users\ivan\documents\programiranje\c++\poop\projekat\projekat\main.cpp(698): warning C4018: '<': signed/unsigned mismatch
+c:\users\ivan\documents\programiranje\c++\poop\projekat\projekat\main.cpp(768): warning C4018: '<': signed/unsigned mismatch
+c:\users\ivan\documents\programiranje\c++\poop\projekat\projekat\main.cpp(213): warning C4101: 'part': unreferenced local variable
+c:\users\ivan\documents\programiranje\c++\poop\projekat\projekat\main.cpp(213): warning C4101: 'spojena': unreferenced local variable
+c:\users\ivan\documents\programiranje\c++\poop\projekat\projekat\main.cpp(346): warning C4101: 'part': unreferenced local variable
+c:\users\ivan\documents\programiranje\c++\poop\projekat\projekat\main.cpp(346): warning C4101: 'spojena': unreferenced local variable
+c:\users\ivan\documents\programiranje\c++\poop\projekat\projekat\main.cpp(445): warning C4101: 'part': unreferenced local variable
+c:\users\ivan\documents\programiranje\c++\poop\projekat\projekat\main.cpp(445): warning C4101: 'spojena': unreferenced local variable
+  Generating Code...
+  Skipping... (no relevant changes detected)
+  Takt.cpp
+  Nota.cpp
+  Izuzetak.cpp
+  Projekat.vcxproj -> C:\Users\Ivan\Documents\PROGRAMIRANJE\C++\POOP\Projekat\Debug\Projekat.exe

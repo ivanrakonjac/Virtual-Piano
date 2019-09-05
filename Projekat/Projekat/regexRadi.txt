@@ -1,0 +1,36 @@
+ifstream file("fur_elise.txt");
+	string textLine2;
+	//regex rx2("[^;]*(\\[[0-9a-z]*\\])[^;]*"); //ovo hvata []
+	regex rx2(".*?(\\[[0-9a-z\\s]*\\]|[a-zA-Z0-9]*)[^;]*");
+	if (file.is_open())
+	{
+		smatch result;
+		getline(file, textLine2);
+		while (textLine2.length()>0) {
+			cout << "----------------------STRING PRE KONVERZIJE----------------------" << endl;
+			cout << textLine2 << endl;
+			cout << textLine2.length() << endl;
+
+			char space = ' ';char crta = '|';
+			if (textLine2[0] == space || textLine2[0] == crta) {
+				for (int i = 0;i < textLine2.length() - 1;i++) textLine2[i] = textLine2[1 + i];
+				textLine2.resize(textLine2.length() - 1);
+				cout << "----------------------STRING POSLE KONVERZIJE----------------------" << endl;
+				cout << textLine2 << endl;
+				cout << textLine2.length() << endl;
+			}else if(regex_match(textLine2, result, rx2)) {
+				cout << "Usao" << endl;
+				string kar = result.str(1);
+				cout << kar << endl;
+				cout << kar.length() << endl;
+				for (int i = 0;i < textLine2.length() - kar.length();i++) textLine2[i] = textLine2[kar.length() + i];
+				textLine2.resize(textLine2.length() - kar.length());
+				cout << "----------------------STRING POSLE KONVERZIJE----------------------" << endl;
+				cout << textLine2 << endl;
+				cout << textLine2.length() << endl;
+			}
+			system("pause");
+		}
+		file.close();
+	}
+	else cout << "Unable to open file\n";
